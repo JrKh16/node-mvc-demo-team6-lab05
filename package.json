@@ -1,5 +1,5 @@
 {
-  "name": "node-mvc-demo",
+  "name": "mvc-demo",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -15,5 +15,12 @@
   },
   "scripts": {
     "start": "node server.js"
+  },
+  "description": "![](./media/preview.gif)\r A sample Node.js MVC web app creating using  Express, Pug, Passport.js, bcryptjs, and Sequelize.js (SQLite)",
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.13"
   }
 }

@@ -11,6 +11,7 @@ const PORT = 8080;
 
 app.use(express.urlencoded({extended: false}));
 app.set('view engine', 'pug');
+// app.get('/', (req, res) => res.send('<h1>Hello Express</h1>'));
 
 initAuth();
 app.use(session({
